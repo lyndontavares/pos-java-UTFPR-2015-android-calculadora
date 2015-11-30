@@ -1,0 +1,207 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/textViewAns"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#A00000FF"
+            android:gravity="right|center"
+            android:includeFontPadding="true"
+            android:padding="5dp"
+            android:scrollHorizontally="true"
+            android:singleLine="false"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:typeface="monospace" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/seven"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/eight"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/nine"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonDiv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/divide"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/four"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/five"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/six"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonMul"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/multiply"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/one"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/two"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/three"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonSub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/minus"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/buttonDel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/delete"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/zero"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonEql"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="calculate"
+            android:text="@string/equals"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="registerKey"
+            android:text="@string/plus"
+            android:textSize="30dp" />
+    </TableRow>
+
+</TableLayout>

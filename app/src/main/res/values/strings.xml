@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">UTFPR - Pós Java - Calculadora</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">UTFPR - Pós Java - Calculadora</string>
+    <string name="zero"><b>0</b></string>
+    <string name="one"><b>1</b></string>
+    <string name="two"><b>2</b></string>
+    <string name="three"><b>3</b></string>
+    <string name="four"><b>4</b></string>
+    <string name="five"><b>5</b></string>
+    <string name="six"><b>6</b></string>
+    <string name="seven"><b>7</b></string>
+    <string name="eight"><b>8</b></string>
+    <string name="nine"><b>9</b></string>
+    <!-- string name="clear">C</string -->
+    <!-- string name="delete_left">\u232B</string -->
+    <string name="delete"><b>\u00AB</b></string>
+    <string name="divide"><b>\u00F7</b></string>
+    <string name="multiply"><b>\u2715</b></string>
+    <string name="plus"><b>\u002B</b></string>
+    <string name="minus"><b>\u2212</b></string>
+    <string name="equals"><b>\u003D</b></string>
+
+</resources>
